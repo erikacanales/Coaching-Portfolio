@@ -51,5 +51,6 @@
 
 .home{
     display: flex;
-    bac
+    background: url("/src/img/front-end-dev-pic.png") no-repeat center;
+    height: 250vh;
 }
