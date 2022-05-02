@@ -1,6 +1,7 @@
 :root{
     --accent-color: #07689F;
     --cta-color: #FF7E67;
+    --soft-color: #A2D5F2;
 }
 
 *{
@@ -29,6 +30,11 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+    color: var(--cta-color);
 }
 
 .navbar .portfolio-text {
@@ -47,6 +53,7 @@
     align-items: center;
     justify-content: space-between;
 }
+
 
 /*Home Section Styling*/
 
