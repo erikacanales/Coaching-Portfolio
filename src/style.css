@@ -25,6 +25,7 @@
     background: var(--accent-color);
     font-family: 'Nunito', 'sans-serif';
 }
+
 .navbar .menu li a{
     color: white;
     font-size: 18px;
@@ -52,11 +53,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: auto 0 auto 40px;
 }
 
 /*Hamburger Btn Styling */
 .menu-btn {
-
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
 }
 
 /*Home Section Styling*/
@@ -90,4 +95,10 @@
 .home .home-content .text-3 span{
     color: var(--cta-color);
     font-weight: 500;
+}
+
+/*Responsive Media Query Start*/
+
+@media (.max-width: 980px){
+     
 }
