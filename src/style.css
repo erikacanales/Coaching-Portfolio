@@ -1,5 +1,6 @@
 :root{
-    --accent-color: #00ADB5;
+    --accent-color: #07689F;
+    --cta-color: #FF7E67;
 }
 
 *{
@@ -53,4 +54,29 @@
     display: flex;
     background: url("/src/img/front-end-developer\(1\).png") no-repeat center;
     height: 100vh;
+    min-height: 500px;
+    font-family: 'Nunito', 'sans-serif';
+}
+
+.home .max-width {
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1 {
+    font-size: 27px;
+}
+
+.home .home-content .text-2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3 {
+    font-size: 40px;
+}
+
+.home .home-content .text-3 span{
+    color: var(--cta-color);
+    font-weight: 500;
 }
